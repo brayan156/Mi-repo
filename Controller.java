@@ -20,13 +20,7 @@ public class Controller {
     private Double orgSceneY;
     private ImageView matriz[][] = new ImageView[15][15];
 
-    public void click() {
-        log.debug("si clickeaste compa");
-        player = new imagen(50, 100, 130, 80, "file:src/Media/Castillo1.JPG");
-        hola.getChildren().add(player);
 
-
-    }
 
     public void clickon() {
         log.debug("si clickeaste compa");
